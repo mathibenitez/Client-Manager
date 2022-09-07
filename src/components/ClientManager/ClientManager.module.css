@@ -1,0 +1,13 @@
+.notice {
+  background-color: var(--color-cyan-600);
+  color: var(--color-white);
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--color-slate-50);
+  height: 100vh;
+}

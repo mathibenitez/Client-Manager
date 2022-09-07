@@ -1,7 +1,11 @@
-import './App.css';
+import ClientManager from "./components/ClientManager";
 
 function App() {
-	return <></>;
+  return (
+    <>
+      <ClientManager />
+    </>
+  );
 }
 
 export default App;

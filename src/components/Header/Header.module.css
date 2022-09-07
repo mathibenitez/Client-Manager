@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.titulo {
+  margin-top: 80px;
+  margin-bottom: 8px;
+}
+p {
+  margin: 0px;
+}

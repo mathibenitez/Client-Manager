@@ -1,0 +1,13 @@
+.typeClient {
+  border-radius: var(--radius-md);
+  background-color: var(--color-yellow-200);
+  color: var(--color-yellow-600);
+  padding: 5px 7px;
+}
+
+.typeProvider {
+  border-radius: var(--radius-md);
+  background-color: var(--color-cyan-200);
+  color: var(--color-cyan-600);
+  padding: 5px 7px;
+}

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className={style.header}>
       <h1 className={style.titulo}>User Manager</h1>
-      <p>Manage your clients and providers</p>
+      <p>Manages your clients and providers</p>
     </header>
   );
 };

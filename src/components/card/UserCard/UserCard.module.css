@@ -1,0 +1,88 @@
+.userCard {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100px;
+  justify-content: space-between;
+  border-radius: var(--radius-sm);
+  background-color: var(--color-slate-50);
+  border: 1px solid var(--color-slate-200);
+}
+
+.upperCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nameTag {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+}
+
+.photo {
+  justify-self: end;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.lowerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.userState {
+  gap: 10px;
+}
+
+.userActions {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.delete {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-slate-200);
+  cursor: pointer;
+}
+.iconDelete {
+  width: 15px;
+  height: 15px;
+  color: var(--color-rose);
+  transition: width, height 500ms ease;
+}
+
+.edit {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-slate-200);
+  cursor: pointer;
+}
+
+.iconEdit {
+  width: 15px;
+  height: 15px;
+  color: black;
+  transition: width, height 500ms ease;
+}
+
+.iconEdit:hover,
+.iconDelete:hover {
+  width: 20px;
+  height: 20px;
+}

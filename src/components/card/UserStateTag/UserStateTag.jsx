@@ -1,8 +1,13 @@
-import React from "react";
-import style from "./UserStateTag.module.css";
+import style from './UserStateTag.module.css';
+import { CircleCheck } from 'akar-icons';
 
-const UserStateTag = () => {
-  return <span className={style.active}>Active</span>;
+const UserStateTag = ({ type = 'Inactive' }) => {
+	return (
+		<span className={style.type}>
+			<CircleCheck className={style.type} />
+			{type}
+		</span>
+	);
 };
 
 export default UserStateTag;

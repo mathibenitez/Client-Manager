@@ -1,0 +1,13 @@
+.active {
+	width: 15px;
+	height: 15px;
+	color: var(--color-teal);
+	transition: width, height 500ms ease;
+}
+
+.inactive {
+	width: 15px;
+	height: 15px;
+	color: var(--color-rose);
+	transition: width, height 500ms ease;
+}

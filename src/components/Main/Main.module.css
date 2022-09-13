@@ -8,3 +8,40 @@
   border: 1px solid var(--color-slate-200);
   border-radius: var(--radius-sm);
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-slate-50);
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-slate-200);
+  height: 100px;
+}
+
+.upperForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lowerForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputName {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputUserName {
+  display: flex;
+  flex-direction: column;
+}
+.inputName > input {
+  border-radius: var(--radius-md);
+}
